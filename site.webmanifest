@@ -1,0 +1,21 @@
+{
+	"_comment": "WRITE DESCRIPTION + EDIT SCOPE FROM WEBMANIFEST AT A LATER DATE",
+	"name": "Chicago Awareness Project",
+	"short_name": "CAP",
+	"description": "Lorem ipsum... TO BE MADE LATER",
+	"display": "standalone",
+	"scope": "/app/",
+	"icons": [{
+	  "src": "favicon_io/apple-touch-icon.png",
+	  "sizes": "180x180",
+	  "type": "image/png"
+	}, {
+	  "src": "favicon_io/favicon-32x32.png",
+	  "sizes": "32x32",
+	  "type": "image/png"
+	}, {
+	  "src": "favicon_io/favicon-16x16.png",
+	  "sizes": "16x16",
+	  "type": "image/png"
+	}]
+  }
