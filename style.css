@@ -1,7 +1,7 @@
 body {
 	font-family: 'Lato', sans-serif;
 }
-  
+
 .overlay {
 	height: 100%;
 	width: 0%;
@@ -14,17 +14,23 @@ body {
 	overflow-x: hidden;
 	transition: 0.5s;
 }
+.overlay #overlay-links{
+    position: absolute;
+    top: 20px;	
+}
   
 .overlay-links {
 	position: relative;
 	top: 25%;
 	width: 100%;
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 6px;
+	
 }
   
 .overlay a {
 	padding: 8px;
+
 	text-decoration: none;
 	font-size: 36px;
 	color: #818181;
