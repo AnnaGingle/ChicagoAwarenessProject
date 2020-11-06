@@ -1,5 +1,6 @@
 body {
 	font-family: 'Lato', sans-serif;
+	margin: 16dp;
 }
 
 .overlay {
@@ -67,4 +68,15 @@ body {
 /*Footer*/
 .footer-container{
 	background-color: red;
+}
+.title-container{
+	display: flex;
+	
+}
+.header-img-container,
+.header-title{
+	padding: 18px;
+}
+.header-summary{
+	margin: 26px;
 }
