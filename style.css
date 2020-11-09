@@ -2,7 +2,10 @@ body {
 	font-family: 'Lato', sans-serif;
 	margin: 16dp;
 }
-
+.event-wrapper,
+.header-container{
+	padding-bottom: 8px;;
+}
 .overlay {
 	height: 100%;
 	width: 0%;
@@ -79,4 +82,12 @@ body {
 }
 .header-summary{
 	margin: 26px;
+}
+
+/*EVENTS*/
+.event-container{
+	background-color: green;
+}
+.event-wrapper{
+	background-color: yellow
 }
