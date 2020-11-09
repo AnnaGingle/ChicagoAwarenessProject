@@ -1,7 +1,11 @@
 body {
 	font-family: 'Lato', sans-serif;
+	margin: 16dp;
 }
-  
+.event-wrapper,
+.header-container{
+	padding-bottom: 8px;;
+}
 .overlay {
 	height: 100%;
 	width: 0%;
@@ -14,17 +18,23 @@ body {
 	overflow-x: hidden;
 	transition: 0.5s;
 }
+.overlay #overlay-links{
+    position: absolute;
+    top: 20px;	
+}
   
 .overlay-links {
 	position: relative;
 	top: 25%;
 	width: 100%;
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 6px;
+	
 }
   
 .overlay a {
 	padding: 8px;
+
 	text-decoration: none;
 	font-size: 36px;
 	color: #818181;
@@ -41,4 +51,43 @@ body {
 	top: 20px;
 	right: 45px;
 	font-size: 60px;
+}
+.burger-container{
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 60px;
+}
+
+
+/*HEADER*/
+.header-container{
+	background-color: blue;
+	margin-top: 82px;
+}
+.header-img{
+	background-image: url("i");
+}
+/*Footer*/
+.footer-container{
+	background-color: red;
+}
+.title-container{
+	display: flex;
+	
+}
+.header-img-container,
+.header-title{
+	padding: 18px;
+}
+.header-summary{
+	margin: 26px;
+}
+
+/*EVENTS*/
+.event-container{
+	background-color: green;
+}
+.event-wrapper{
+	background-color: yellow
 }
