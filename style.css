@@ -9,6 +9,7 @@ body {
 .overlay {
 	height: 100%;
 	width: 0%;
+	/* opacity: 50%; */
 	position: fixed;
 	z-index: 1;
 	top: 0;
@@ -18,23 +19,17 @@ body {
 	overflow-x: hidden;
 	transition: 0.5s;
 }
+
 .overlay #overlay-links{
-    position: absolute;
-    top: 20px;	
-}
-  
-.overlay-links {
-	position: relative;
-	top: 25%;
-	width: 100%;
+  position: absolute;
+  width: 100%;
+	top: 33%;	
 	text-align: center;
-	margin-top: 6px;
-	
+	margin-top: 30px;
 }
   
 .overlay a {
 	padding: 8px;
-
 	text-decoration: none;
 	font-size: 36px;
 	color: #818181;
@@ -48,17 +43,26 @@ body {
   
 .overlay .closebtn {
 	position: absolute;
-	top: 20px;
+	top: 10px;
 	right: 45px;
 	font-size: 60px;
 }
+
+/* 
+	styling and positioning for strictly only the hamburger menu 
+*/
+#hamburger {
+	position: absolute;
+	padding: 8px;
+	top: 10px;
+	left: 40px;
+
 .burger-container{
 	position: absolute;
 	top: 20px;
 	right: 45px;
 	font-size: 60px;
 }
-
 
 /*HEADER*/
 .header-container{
@@ -74,8 +78,8 @@ body {
 }
 .title-container{
 	display: flex;
-	
 }
+  
 .header-img-container,
 .header-title{
 	padding: 18px;
