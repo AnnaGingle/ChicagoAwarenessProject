@@ -1,3 +1,6 @@
+html {
+	background: linear-gradient(90deg, rgba(253,252,238,1) 0%, rgba(255,245,227,1) 100%);
+}
 body {
 	font-family: 'Lato', sans-serif;
 	margin: 16dp;
@@ -9,7 +12,6 @@ body {
 .overlay {
 	height: 100%;
 	width: 0%;
-	/* opacity: 50%; */
 	position: fixed;
 	z-index: 1;
 	top: 0;
@@ -26,6 +28,13 @@ body {
 	top: 33%;	
 	text-align: center;
 	margin-top: 30px;
+}
+
+.social-links {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	padding-top: 150px;
 }
   
 .overlay a {
@@ -48,18 +57,9 @@ body {
 	font-size: 60px;
 }
 
-/* 
-	styling and positioning for strictly only the hamburger menu 
-*/
-#hamburger {
-	position: absolute;
-	padding: 8px;
-	top: 10px;
-	left: 40px;
-
 .burger-container{
 	position: absolute;
-	top: 20px;
+	top: 10px;
 	right: 45px;
 	font-size: 60px;
 }
@@ -67,7 +67,7 @@ body {
 /*HEADER*/
 .header-container{
 	background-color: blue;
-	margin-top: 82px;
+	margin-top: 92px;
 }
 .header-img{
 	background-image: url("i");
@@ -84,6 +84,10 @@ body {
 .header-title{
 	padding: 18px;
 }
+.header-title h1 {
+	margin-left: 13%;
+}
+
 .header-summary{
 	margin: 26px;
 }
