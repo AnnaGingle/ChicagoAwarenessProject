@@ -2,10 +2,16 @@ body {
 	font-family: 'Lato', sans-serif;
 	margin: 16dp;
 }
-.event-wrapper,
-.header-container{
-	padding-bottom: 8px;;
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: mr-eaves-modern, sans-serif;
 }
+
+p, a {
+	font-family: fairplex-narrow, serif;
+}
+
+/*OVERLAY*/
 .overlay {
 	height: 100%;
 	width: 0%;
@@ -19,7 +25,6 @@ body {
 	overflow-x: hidden;
 	transition: 0.5s;
 }
-
 .overlay #overlay-links{
   position: absolute;
   width: 100%;
@@ -27,7 +32,6 @@ body {
 	text-align: center;
 	margin-top: 30px;
 }
-  
 .overlay a {
 	padding: 8px;
 	text-decoration: none;
@@ -36,11 +40,9 @@ body {
 	display: block;
 	transition: 0.3s;
 }
- 
 .overlay a:hover, .overlay a:focus {
 	color: #f1f1f1;
 }
-  
 .overlay .closebtn {
 	position: absolute;
 	top: 10px;
@@ -48,15 +50,7 @@ body {
 	font-size: 60px;
 }
 
-/* 
-	styling and positioning for strictly only the hamburger menu 
-*/
-#hamburger {
-	position: absolute;
-	padding: 8px;
-	top: 10px;
-	left: 40px;
-
+/*HAMBURGER*/
 .burger-container{
 	position: absolute;
 	top: 20px;
@@ -72,20 +66,24 @@ body {
 .header-img{
 	background-image: url("i");
 }
-/*Footer*/
-.footer-container{
-	background-color: red;
-}
-.title-container{
-	display: flex;
-}
-  
 .header-img-container,
 .header-title{
 	padding: 18px;
 }
 .header-summary{
 	margin: 26px;
+}
+.event-wrapper,
+.header-container{
+	padding-bottom: 8px;;
+}
+
+/*Footer*/
+.footer-container{
+	background-color: red;
+}
+.title-container{
+	display: flex;
 }
 
 /*EVENTS*/
@@ -94,4 +92,10 @@ body {
 }
 .event-wrapper{
 	background-color: yellow
+}
+
+/*SINGLE EVENT RESOURCE CONTAINER*/
+.resource-container {
+	background-color: teal;
+	margin: 10px;
 }
