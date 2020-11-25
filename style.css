@@ -1,6 +1,11 @@
-body {
+html, body {
 	font-family: 'Lato', sans-serif;
 	margin: 16dp;
+	background-color: #e3ebe2;
+	min-height: 100%;
+
+	display: flex;
+	flex-direction: column;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -11,7 +16,7 @@ p, a {
 	font-family: fairplex-narrow, serif;
 }
 
-/*OVERLAY*/
+/*NAV OVERLAY*/
 .overlay {
 	height: 100%;
 	width: 0%;
@@ -28,7 +33,7 @@ p, a {
 .overlay #overlay-links{
   position: absolute;
   width: 100%;
-	top: 33%;	
+	top: 33%;
 	text-align: center;
 	margin-top: 30px;
 }
@@ -53,45 +58,55 @@ p, a {
 /*HAMBURGER*/
 .burger-container{
 	position: absolute;
-	top: 20px;
-	right: 45px;
+	top: 5px;
+	right: 35px;
 	font-size: 60px;
 }
 
-/*HEADER*/
+/*BANNER & HEADER*/
+.banner-image{
+	text-align: center;
+	margin-top: 15px;
+}
+
 .header-container{
-	background-color: blue;
-	margin-top: 82px;
+	/* background-color: blue; */
+	margin-top: 32px;
 }
-.header-img{
-	background-image: url("i");
+
+.header-img-container{
+	margin: 0 auto;
 }
-.header-img-container,
-.header-title{
-	padding: 18px;
-}
-.header-summary{
-	margin: 26px;
-}
+
 .event-wrapper,
 .header-container{
-	padding-bottom: 8px;;
+	padding-bottom: 8px;
+	display: flex;
+	flex-direction: column;
+}
+
+/*EVENTS*/
+.timeline-wrapper{
+
+}
+
+.timeline-intro{
+	text-align: left;
+	padding: 25px;
+}
+
+.node-container{
+	background-color: green;
+}
+
+.event-title{
+	padding-left: 75px;
+	font-size: 18px;
 }
 
 /*Footer*/
 .footer-container{
 	background-color: red;
-}
-.title-container{
-	display: flex;
-}
-
-/*EVENTS*/
-.event-container{
-	background-color: green;
-}
-.event-wrapper{
-	background-color: yellow
 }
 
 /*SINGLE EVENT RESOURCE CONTAINER*/
